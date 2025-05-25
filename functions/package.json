@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "firebase emulators:start --only functions"
+  },
+  "engines": {
+    "node": "22"
   },
   "keywords": [],
   "author": "",
